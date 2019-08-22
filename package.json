@@ -4,7 +4,10 @@
   "description": "testing",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "preversion": "echo 'should run lint and tests'",
+    "version": "git add package*.json",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
