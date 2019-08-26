@@ -2,6 +2,7 @@
   "name": "my-react-bootstrap",
   "version": "0.1.0",
   "author": "Teemu Koivisto",
+  "homepage": "https://teemukoivisto.github.io/test-app/",
   "dependencies": {
     "axios": "^0.19.0",
     "mobx": "^5.13.0",
@@ -19,7 +20,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "tslint --project ./ -c tslint.json",
-    "lint:fix": "tslint --fix --project ./ -c tslint.json"
+    "lint:fix": "tslint --fix --project ./ -c tslint.json",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@types/jest": "24.0.16",
@@ -29,6 +32,7 @@
     "@types/react-router": "^5.0.3",
     "@types/react-router-dom": "^4.3.4",
     "@types/styled-components": "4.1.18",
+    "gh-pages": "^2.1.1",
     "react-scripts": "3.0.1",
     "tslint-config-airbnb": "^5.11.1",
     "typescript": "3.5.3"
