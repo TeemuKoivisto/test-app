@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "/img/s24-icons-192.png",
+      "src": "./img/s24-icons-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/img/s24-icons-512.png",
+      "src": "./img/s24-icons-512.png",
       "type": "image/png",
       "sizes": "192x192"
     }
